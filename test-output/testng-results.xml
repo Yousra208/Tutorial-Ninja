@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TutorialNinga" duration-ms="121811" started-at="2023-10-10T05:03:48 HDT" finished-at="2023-10-10T05:05:50 HDT">
+    <groups>
+    </groups>
+    <test name="Registeration" duration-ms="80600" started-at="2023-10-10T05:03:48 HDT" finished-at="2023-10-10T05:05:09 HDT">
+      <class name="testcases.TC01_Registeration">
+        <test-method status="PASS" signature="setupDriver(java.lang.String)[pri:0, instance:testcases.TC01_Registeration@14c99bf6]" name="setupDriver" is-config="true" duration-ms="60141" started-at="2023-10-10T05:03:49 HDT" finished-at="2023-10-10T05:04:50 HDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method status="PASS" signature="Registeration_P()[pri:1, instance:testcases.TC01_Registeration@14c99bf6]" name="Registeration_P" duration-ms="16628" started-at="2023-10-10T05:04:51 HDT" description="New user Registeration" finished-at="2023-10-10T05:05:07 HDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registeration_P -->
+      </class> <!-- testcases.TC01_Registeration -->
+    </test> <!-- Registeration -->
+    <test name="Login with valid email and password" duration-ms="40533" started-at="2023-10-10T05:05:09 HDT" finished-at="2023-10-10T05:05:50 HDT">
+      <class name="testcases.TC02_Login">
+        <test-method status="PASS" signature="setupDriver(java.lang.String)[pri:0, instance:testcases.TC02_Login@18709cb2]" name="setupDriver" is-config="true" duration-ms="25477" started-at="2023-10-10T05:05:10 HDT" finished-at="2023-10-10T05:05:35 HDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method status="PASS" signature="LoginWithValidEmailAndPassword_P()[pri:1, instance:testcases.TC02_Login@18709cb2]" name="LoginWithValidEmailAndPassword_P" duration-ms="14977" started-at="2023-10-10T05:05:35 HDT" description="user login with valid email and password" finished-at="2023-10-10T05:05:50 HDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithValidEmailAndPassword_P -->
+      </class> <!-- testcases.TC02_Login -->
+    </test> <!-- Login with valid email and password -->
+  </suite> <!-- TutorialNinga -->
+</testng-results>
