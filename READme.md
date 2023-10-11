@@ -27,7 +27,7 @@ Tutorial Ninga application that provides various shopping services.
 To set up the NopCommerce application locally, follow these steps:
 
 1. Clone the repository:
-*   git clone https://github.com/Yousra208/Nop-Commerce.git
+*   git clone https://github.com/Yousra208/Tutorial-Ninja.git
 2. Navigate to the project directory:
 *   cd Tutorial Ninga
 3. Install dependencies:
